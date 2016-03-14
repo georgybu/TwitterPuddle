@@ -1,3 +1,6 @@
+Twitter Puddle implementation in functional style with regexp with zero-dependencies
+UI implementation - angular 1.5
+
 Run
 ===
 ```node puddle```
@@ -30,3 +33,12 @@ Output
 111111W111
 1111111111
 ```
+
+test cases:
+[2, 5, 1, 2, 3, 4, 7, 7, 6],
+[2, 5, 1, 2, 3, 4, 7, 7, 6, 2, 7, 1, 2, 3, 4, 5, 5, 4],
+[2, 7, 2, 7, 4, 7, 1, 7, 3, 7],
+[2, 5, 1, 3, 1, 2, 1, 7, 7, 6, 5, 9, 0, 1, 0, 0, 20, 18, 5, 20, 0, 1, 0, 1],
+[2, 3, 6, 2, 3, 1, 7, 3, 2, 2]
+// TODO: check [3,2,8,1,4,6]
+// TODO: [0,4,1,3,3,6,2,5]

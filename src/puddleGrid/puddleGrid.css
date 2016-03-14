@@ -1,0 +1,40 @@
+.puddle-grid {
+
+}
+.puddle-grid ul {
+    margin: 0;
+    padding: 0;
+}
+
+.puddle-grid li {
+    list-style: none;
+}
+
+.puddle-grid .row {
+    text-align: center;
+    margin-top: 20px
+}
+.puddle-grid .row > li {
+    height: 29px;
+}
+
+.puddle-grid .col > li {
+    display: inline-block;
+    border: 1px solid #808080;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin: 1px;
+}
+
+.puddle-grid .item-1 {
+    background-color: grey;
+}
+
+.puddle-grid .item-0 {
+    background-color: white;
+}
+
+.puddle-grid .item-W {
+    background-color: lightblue;
+}
