@@ -1,5 +1,5 @@
 <div class="app">
     <h1>Twitter Puddle js solution</h1>
-    <input-manager on-value-change="$ctrl.onChange(newValue)"></input-manager>
-    <puddle-grid values="$ctrl.getValues()"></puddle-grid>
+    <input-manager on-value-change="$ctrl.puddleService.setInput(newValue)"></input-manager>
+    <puddle-grid values="$ctrl.puddleService.getData()"></puddle-grid>
 </div>

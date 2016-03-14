@@ -1,21 +1,12 @@
+// @ngInject
 function appController(puddleService) {
-  var ctrl = this;
-
-  ctrl.onChange = function(newValue) {
-    puddleService.setInput(newValue);
-  };
-
-  ctrl.getValues = function() {
-    return puddleService.getData();
-  }
+  this.puddleService = puddleService;
 }
 
-var appName = 'main';
-
-angular.module(appName, []);
+angular.module('main', []);
 
 angular.getAppModule = function () {
-  return angular.module(appName);
+  return angular.module('main');
 };
 
 angular.getComponent = function (name, bindings) {
