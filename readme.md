@@ -4,3 +4,7 @@
 
 - npm i hs -g && bower i && hs -p 9090
 - go to http://localhost:9090
+
+Demo [here]
+
+[here]: <https://georgybu.github.io/TwitterPuddle>
