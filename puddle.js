@@ -23,7 +23,7 @@ function getRange(len) {
   return Array.apply(undefined, {length: len}).map(Number.call, Number);
 }
 
-function MarkWater(s) {
+function markWater(s) {
   return s.replace(/1(.{1,}0)1/gi, function (n) {
     return n.replace(/0/g, 'W');
   })
@@ -31,7 +31,7 @@ function MarkWater(s) {
 
 function puddle(numbers) {
   return getRange(getMaxOfArray(numbers)).map(function (level) {
-    return MarkWater(numbers.map(function (n) {
+    return markWater(numbers.map(function (n) {
       return +(n - level > 0);
     }).join(''));
   }).reverse();
