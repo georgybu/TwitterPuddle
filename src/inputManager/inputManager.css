@@ -1,0 +1,10 @@
+.input-manager {
+    text-align: center;
+}
+
+.input-manager input {
+    min-width: 500px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
