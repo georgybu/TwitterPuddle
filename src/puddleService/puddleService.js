@@ -5,7 +5,7 @@ function puddleService(common) {
   var getMaxOfArray = common.getMaxOfArray;
 
   function markWater(s) {
-    return s.replace(/1(.{0,}0)1/gi, function (n) {
+    return s.replace(/1(.*0)1/gi, function (n) {
       return n.replace(/0/g, 'W');
     })
   }
